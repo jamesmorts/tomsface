@@ -1,6 +1,6 @@
 $(document).ready(function() {
     var audioElement = document.createElement('audio');
-    audioElement.setAttribute('src', 'tomsface/fuck.mp3');
+    audioElement.setAttribute('src', 'fuck.mp3');
 
     audioElement.addEventListener('ended', function() {
         this.play();
